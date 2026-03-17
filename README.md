@@ -5,4 +5,4 @@ R plotting script(R语言绘图脚本)
 
 ## Mantel test（Mantel检验）
 
-<img width="1420" height="1101" src="https://github.com/whbeifan/BFRplot/mantel_test/microbe.mantel_test.png" />
+<img width="500" height="500" src="https://github.com/whbeifan/BFRplot/blob/main/mantel_test/microbe.mantel_test.png" />
