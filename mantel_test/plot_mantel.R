@@ -149,6 +149,7 @@ plot_mantel <- function(data1, data2, group="", prefix="out", width=200, height=
 
     #data2 <- t(data2) #对环境因子进行转置
     data1 <- data1[which(rowSums(data1) > 0),] #过滤所有丰度都为0得行
+	data1 <- data1[apply(data1, 1, max) > 0.0001, ]   #过滤0.01%丰度一下的
 
     sample_id1 <- colnames(data1)
     sample_id2 <- colnames(data2)
@@ -174,6 +175,7 @@ plot_mantel <- function(data1, data2, group="", prefix="out", width=200, height=
         colnames(group) <- c("microbe", "group")
         group$group <- rep(c(dtype),each=length(group$group))
     }
+	print(paste("分析使用的基因或者物种数目", length(rownames(data1)), sep=":"))
     data2 <- t(data2)
 
     gindex <- get_group_index(group)
