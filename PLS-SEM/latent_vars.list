@@ -1,0 +1,6 @@
+Time	Organic_acid
+Time	OTC_degrade
+Organic_acid	microbe
+microbe	ARG
+Organic_acid	OTC_degrade
+Organic_acid	ARG

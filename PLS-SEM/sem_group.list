@@ -1,0 +1,9 @@
+Time	Time
+Lac	Organic_acid
+AcOH	Organic_acid
+PA	Organic_acid
+DNA_Shannon	microbe
+RNA_Shannon	microbe
+OTC_degrade	OTC_degrade
+Sum_DNA-ARG	ARG
+Sum_RNA-ARG	ARG
